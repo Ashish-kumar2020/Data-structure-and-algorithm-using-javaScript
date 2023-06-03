@@ -9,7 +9,7 @@ var transpose = function(matrix) {
             result[col][row] = matrix[row][col];
         }
     }
-    return result;
+    console.table(result); 
 };
 
 const matrix = [[1,2,3],[4,5,6],[7,8,9]];
